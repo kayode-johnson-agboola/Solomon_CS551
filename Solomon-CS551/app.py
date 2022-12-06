@@ -10,7 +10,7 @@ from PIL import Image
 # Load  model a 
 model = joblib.load(open("model-v1.joblib","rb"))
 
-def data_preprocessor(df):
+def data_preprocessor(covid19):
     """this function preprocess the user input
         return type: pandas dataframe
     """
